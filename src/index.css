@@ -14,3 +14,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.portfolioRow {
+  @apply flex xl:flex-row flex-col xl:justify-start items-center space-y-12 xl:space-y-0 text-center sm:text-start w-full;
+}
+
+.portfolioImg {
+  @apply xl:w-1/2 xl:pr-5 w-full;
+}
+
+.portfolioContent {
+  @apply xl:w-1/2 w-full  flex flex-col space-y-4 justify-evenly;
+}
+
+.portfolioContent h1 {
+  @apply font-poppins md:text-3xl text-xl text-sky-700;
+}
+
+.portfolioContent .title {
+  @apply font-roboto text-gray-600 md:text-lg text-sm text-justify;
+}
+
+.portfolioContent .buttons {
+  @apply flex sm:space-x-12 justify-evenly sm:justify-start;
+}
+
+.portfolioContent .buttons .button {
+  @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md:font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+}
+
+.portfolioContent .badges {
+  @apply flex  justify-center sm:justify-start max-w-full flex-wrap;
+}
+
+.portfolioContent .badges .badge {
+  @apply lg:h-8 md:h-6 w-fit h-4 mr-3 mt-1;
+}

@@ -7,6 +7,7 @@ module.exports = {
         sans: ["Open Sans", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        bebas: ["Bebas Neue", "sans-serif"],
       },
     },
   },
