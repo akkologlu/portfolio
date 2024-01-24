@@ -14,7 +14,7 @@ import { SiBuymeacoffee } from "react-icons/si";
 
 function About() {
   return (
-    <div className="flex xl:flex-row  w-full my-auto flex-col-reverse">
+    <div className="flex xl:flex-row  w-full my-auto flex-col-reverse mt-6">
       <div className="xl:w-2/5 xl:min-w-[510px]">
         <img src={aboutphotos} alt="" />
       </div>
@@ -51,93 +51,97 @@ function About() {
           projects together. Are you ready to join this journey with me? Let's
           work together.
         </p>
-        <div className="flex space-x-6 items-center">
-          <a
-            href="https://akkologluresume.s3.eu-north-1.amazonaws.com/akkologlu_cv.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md:font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;"
-          >
-            Resume
-          </a>
-          <a
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md:font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;"
-            href="mailto:abdullahakkol@gmail.com"
-          >
-            Contact
-          </a>
-          <a
-            href="https://www.linkedin.com/in/akkologlu/"
-            target="_blank"
-            rel="noreferrer"
-            className="text-2xl bg-blue-700 text-white rounded-full p-2 hover:bg-white hover:text-blue-700 ease-in-out duration-200"
-          >
-            <FaLinkedinIn />
-          </a>
-          <a
-            href="https://github.com/akkologlu"
-            target="_blank"
-            rel="noreferrer"
-            className="text-2xl bg-black text-white rounded-full p-2 hover:bg-white hover:text-black ease-in-out duration-200"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://medium.com/@akkologlu"
-            target="_blank"
-            rel="noreferrer"
-            className="text-2xl bg-black text-white rounded-full p-2 hover:bg-white hover:text-black ease-in-out duration-200"
-          >
-            <FaMedium />
-          </a>
-          <a
-            href="https://www.instagram.com/akkologluu"
-            target="_blank"
-            rel="noreferrer"
-            className="text-2xl bg-red-600 text-white rounded-full p-2 hover:bg-white hover:text-red-600 ease-in-out duration-200"
-          >
-            <FaInstagram />
-          </a>
-          <a
-            href="https://www.x.com/akkologluu"
-            target="_blank"
-            rel="noreferrer"
-            className="text-2xl bg-black text-white rounded-full p-2 hover:bg-white hover:text-black ease-in-out duration-200"
-          >
-            <FaXTwitter />
-          </a>
-          <a
-            href="https://www.buymeacoffee.com/akkologlu"
-            target="_blank"
-            rel="noreferrer"
-            className="text-2xl bg-yellow-400 text-white rounded-full p-2 hover:bg-white hover:text-yellow-400 ease-in-out duration-200"
-          >
-            <SiBuymeacoffee />
-          </a>
-          <a
-            href="https://codepen.io/akkologlu"
-            target="_blank"
-            rel="noreferrer"
-            className="text-2xl bg-black text-white rounded-full p-2 hover:bg-white hover:text-black ease-in-out duration-200"
-          >
-            <FaCodepen />
-          </a>
-          <a
-            href="discordapp.com/users/477908109013024768"
-            target="_blank"
-            rel="noreferrer"
-            className="text-2xl bg-[#5865f2] text-white rounded-full p-2 hover:bg-white hover:text-[#5865f2] ease-in-out duration-200"
-          >
-            <FaDiscord />
-          </a>
-          <a
-            href="https://open.spotify.com/user/akkologluu?si=666a92a60803446e"
-            target="_blank"
-            rel="noreferrer"
-            className="text-2xl bg-[#1ED760] text-white rounded-full p-2 hover:bg-white hover:text-[#1ED760] ease-in-out duration-200"
-          >
-            <FaSpotify />
-          </a>
+        <div className="flex items-center md:items-start md:space-y-0 space-y-3 md:flex-row flex-col md:space-x-2 space-x-0">
+          <div className="flex space-x-2">
+            <a
+              href="https://akkologluresume.s3.eu-north-1.amazonaws.com/akkologlu_cv.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md:font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;"
+            >
+              Resume
+            </a>
+            <a
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md:font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;"
+              href="mailto:abdullahakkol@gmail.com"
+            >
+              Contact
+            </a>
+          </div>
+          <div className="flex space-x-1">
+            <a
+              href="https://www.linkedin.com/in/akkologlu/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl bg-blue-700 text-white rounded-full p-2 hover:bg-white hover:text-blue-700 ease-in-out duration-200"
+            >
+              <FaLinkedinIn />
+            </a>
+            <a
+              href="https://github.com/akkologlu"
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl bg-black text-white rounded-full p-2 hover:bg-white hover:text-black ease-in-out duration-200"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://medium.com/@akkologlu"
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl bg-black text-white rounded-full p-2 hover:bg-white hover:text-black ease-in-out duration-200"
+            >
+              <FaMedium />
+            </a>
+            <a
+              href="https://www.instagram.com/akkologluu"
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl bg-red-600 text-white rounded-full p-2 hover:bg-white hover:text-red-600 ease-in-out duration-200"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://www.x.com/akkologluu"
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl bg-black text-white rounded-full p-2 hover:bg-white hover:text-black ease-in-out duration-200"
+            >
+              <FaXTwitter />
+            </a>
+            <a
+              href="https://www.buymeacoffee.com/akkologlu"
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl bg-yellow-400 text-white rounded-full p-2 hover:bg-white hover:text-yellow-400 ease-in-out duration-200"
+            >
+              <SiBuymeacoffee />
+            </a>
+            <a
+              href="https://codepen.io/akkologlu"
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl bg-black text-white rounded-full p-2 hover:bg-white hover:text-black ease-in-out duration-200"
+            >
+              <FaCodepen />
+            </a>
+            <a
+              href="discordapp.com/users/477908109013024768"
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl bg-[#5865f2] text-white rounded-full p-2 hover:bg-white hover:text-[#5865f2] ease-in-out duration-200"
+            >
+              <FaDiscord />
+            </a>
+            <a
+              href="https://open.spotify.com/user/akkologluu?si=666a92a60803446e"
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl bg-[#1ED760] text-white rounded-full p-2 hover:bg-white hover:text-[#1ED760] ease-in-out duration-200"
+            >
+              <FaSpotify />
+            </a>
+          </div>
         </div>
       </div>
     </div>

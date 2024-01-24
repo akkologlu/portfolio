@@ -42,6 +42,13 @@ function Navbar() {
               portfolio
             </NavLink>
             <NavLink
+              to="/writings"
+              className="rounded-xl py-2 px-4 hover:bg-[#dbeafea6] ease-in-out duration-200"
+            >
+              writings
+            </NavLink>
+
+            <NavLink
               to="/about"
               className="rounded-xl py-2 px-4 hover:bg-[#dbeafea6] ease-in-out duration-200"
             >
@@ -84,6 +91,13 @@ function Navbar() {
           onClick={handleMenuItemClick}
         >
           portfolio
+        </NavLink>
+        <NavLink
+          to="/writings"
+          className=" hover:text-secondary"
+          onClick={handleMenuItemClick}
+        >
+          writings
         </NavLink>
         <NavLink
           to="/about"
